@@ -34,7 +34,8 @@ setup(name='pipelinewise',
           'pymongo>=3.10,<3.12',
           'tzlocal>=2.0,<2.2',
           'slackclient>=2.7,<2.10',
-          'psutil==5.8.0'
+          'psutil==5.8.0',
+          'certifi<=2021.0.0'
       ],
       extras_require={
           'test': [
